@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans:400,400italic,700,300italic,300,700italic);
+
+body {
+  line-height: 1.5;
+  font-family: 'Abril Fatface', cursive;
+}
+
+div.title {
+  text-align: left;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+h2 {
+  letter-spacing: 0.1em;
+  border-bottom: 2px solid #222;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+h3 {
+  line-height: normal;
+  font-size: 16px;
+}
+
+main, article {
+  position: relative;
+}
+
+a:visited {
+  color: #17af7b;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #0bc4c8;
+}
+
+a:active {
+  color: #5377f4; /*when you're clicking on it*/
+}
+
+.move{
+  margin-left: 60px;
+}
+
+div.box {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(112,128,144);
+}
+
+address {
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5;
+  margin: 0px 0px 20px 0px;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+em {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+}
+
+p {
+  line-height: 1;
+}
+
+li {
+  font-size: 15px;
+  list-style-type: 0;
+  padding: 0px;
+  margin: 0px;
+  text-indent: 0px;
+}
+
+ul li {
+  color: black;
+  margin: 0px;
+  list-style-type: 0;
+  padding: 0px;
+  line-height: 1.5;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+ol {
+  margin-left: 60px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+nav {
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5;
+  text-transform: uppercase;
+
+}
+nav ul li {
+  display: inline;
+  width: 1000px;
+  font-size: 20px;
+  margin:40px 32px;
+}
+
+nav ul li:first-child {
+  margin-left: 0px;
+}
+
+nav ul li:last-child {
+  margin-right: 0px;
+}
+
+nav ul li a:last-child {
+  margin-right: 0px;
+}
+
+
+section {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+}
+
+#container {
+  max-width: 960px;
+  margin: 0px auto;
+  overflow: auto;
+}
+
+#left-col {
+  max-width: 330px;
+  float: left;
+}
+
+#right-col {
+  max-width: 630px;
+  float: right;
+}
+
+ul {
+  margin-left: 0px;
+  padding-left: 0px;
+}

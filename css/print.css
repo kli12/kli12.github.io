@@ -1,0 +1,47 @@
+* {
+  background: transparent; !important
+  color: black;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+nav {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+ul,ol {
+  margin:4pt 0pt;
+  padding: 0pt;
+  list-style-type: none;
+}
+
+h2,h3 {
+  margin:0pt;
+  padding:0pt;
+}
+
+h1 {
+  font-size: 36pt;
+  margin: 0pt;
+}
+
+h2 {
+  font-size: 16pt;
+}
+
+address {
+  margin-bottom: 10pt;
+}
+
+.hide {
+  display: none;
+}
