@@ -92,6 +92,9 @@ ul li {
   line-height: 1.5;
 }
 
+ul li a{
+  text-decoration: none;
+}
 
 ul {
   list-style-type: none;
