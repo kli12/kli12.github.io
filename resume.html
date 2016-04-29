@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Karen Li's Resume</title>
+    <title>Resume</title>
     <link href="css/stylesheet.css" media="screen" rel="stylesheet" />
     <link href="css/print.css" rel="stylesheet" media="print" />
+    <link href="css/mobile.css" rel="stylesheet" media="mobile" />
   </head>
 
   <body>
@@ -12,44 +13,42 @@
 
       <header>
         <div id="title">
-          <h1>Karen Li's R&eacute;sum&eacute;</h1>
+          <h1>R&eacute;sum&eacute;</h1>
         </div>
 
-        <div id="address">
-          <address>
-            <span>1527 Albenga Ave.</span>
-            <span>Coral Gables, FL 33146</span>
-            <span>817-501-9335</span>
-          </address>
-        </div>
-
-      </header>
-
-      <div id="nav">
-        <nav>
-          <ul>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#involvement">Involvement</a></li>
-            <li><a href="#awards">Awards</a></li>
-            <li><a href="#skills">Skills</a></li>
-          </ul>
-        </nav>
-      </div>
 
 
+        <header>
+
+            <nav id="site_nav">
+              <ul>
+                <li><a href="makeup-samples.html">Makeup Samples</a></li>
+                <li><a href="design-samples.html">Design Samples</a></li>
+                <li><a href="resume.html">R&eacute;sum&eacute;</a></li>
+                <li><a href="about.html">About Me</a></li>
+              </ul>
+            </nav>
+        </header>
 
 
         <main>
           <div id="left-col">
             <section id="contact">
               <h2>Contact</h2>
-
+              <div id="address">
+                <address>
+                  <span>1527 Albenga Ave.</span>
+                  <span>Coral Gables, FL 33146</span>
+                </address>
+              </div>
               <ul>
                 <li><a href="mailto:k.li5@umiami.edu">k.li5@umiami.edu</a></li>
-              <li>  <div class ="hide"><a href="https://www.linkedin.com/in/karenrli">LinkedIn</a></div></li>
+                <li>  <div class ="hide"><a href="https://www.linkedin.com/in/karenrli">LinkedIn</a></div></li>
+                <li> 817-501-9335 </li>
+
               </ul>
+
+
 
             </section>
 
@@ -68,17 +67,6 @@
             </section>
 
 
-            <section id="involvement">
-              <h2>Involvement</h2>
-
-                <ul>
-                  <li>Delta Phi Epsilon Fundraising Coordinator / <em>2014</em></li>
-                  <li>FunDay Coordinator / <em>2014</em></li>
-                  <li>"Chameleon" Ensemble Violinist / <em>2013 - present</em></li>
-                  <li>Freelance makeup Artist (portfolio available upon request) / <em>2011 - present</em></li>
-                </ul>
-            </section>
-
             <section id="awards">
               <h2>Awards</h2>
 
@@ -88,6 +76,9 @@
                   <li>Nominated for departmental PRADDY awards out of more than 500 PR and advertising students / <em>Spring 2015</em></li>
                   <li>Achieved Provost's and Dean's Honor Roll in all semesters of enrollment / <em>Fall 2012 - present</em></li>
                   <li>Ketchum Mindfire Participant / <em>Fall 2015</em></li>
+                  <li>First Place promotional piece in PRADDY Awards / <em>Spring 2016</em></li>
+                  <li>Excellence in Public Relations winner at PRADDY Awards / <em>Spring 2016</em></li>
+                  <li>Tapped into charter chapter of national Anthropology honors society Lambda Alpha / <em>Spring 2016</em></li>
                 </ul>
             </section>
 
@@ -97,13 +88,15 @@
                 <ul>
                   <li><strong>Software</strong>
                       <ul>
-                        <li>Microsoft Office</li>
-                        <li>SPSS</li>
-                        <li>Cision</li>
-                        <li>InDesign</li>
-                        <li>PhotoShop</li>
-                        <li>Illustrator</li>
-                        <li>iContact</li>
+                        <li class="expert">Microsoft Office</li>
+                        <li class="expert">SPSS</li>
+                        <li class="expert">Cision</li>
+                        <li class="expert">InDesign</li>
+                        <li class="advanced">PhotoShop</li>
+                        <li class="advanced">Illustrator</li>
+                        <li class="expert">iContact</li>
+                        <li class="intermediate">HTML</li>
+                        <li class="intermediate">CSS</li>
                       </ul>
                   </li>
                 </ul>
@@ -111,8 +104,8 @@
                 <ul>
                   <li><strong>Languages</strong>
                     <ul>
-                      <li>Mandarin Chinese</li>
-                      <li>Spanish</li>
+                      <li class="expert">Mandarin Chinese</li>
+                      <li class="advanced">Spanish</li>
                     </ul>
                   </li>
                 </ul>
@@ -123,9 +116,9 @@
         <div id="right-col">
             <section id="experience">
 
-<div class="move">
-              <h2>Experience</h2>
-</div>
+          <div class="move">
+                <h2>Experience</h2>
+          </div>
 
                 <ol>
                   <li>
@@ -178,9 +171,21 @@
                   </li>
                 </ol>
             </section>
-          </div>
 
+            <div class="move">
+                <section id="involvement">
+                  <h2>Involvement</h2>
 
+                    <ul>
+                      <li>Delta Phi Epsilon Fundraising Coordinator / <em>2014</em></li>
+                      <li>FunDay Coordinator / <em>2014</em></li>
+                      <li>"Chameleon" Ensemble Violinist / <em>2013 - present</em></li>
+                      <li>Freelance makeup Artist (portfolio available upon request) / <em>2011 - present</em></li>
+                    </ul>
+                </section>
+            </div>
+
+        </div>
 
         </main>
 
