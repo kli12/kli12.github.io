@@ -1,0 +1,12 @@
+/* each page is very different, use that landing page, just do landing page. Message - have it hidden but show up on mobile, visit my site for more. Provide contact information - phone & email */
+
+* {
+  background: transparent; !important
+  color: black;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+#hideit {
+  display: none;
+}
