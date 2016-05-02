@@ -1,12 +1,44 @@
 /* each page is very different, use that landing page, just do landing page. Message - have it hidden but show up on mobile, visit my site for more. Provide contact information - phone & email */
 
-* {
-  background: transparent; !important
-  color: black;
-  font-size: 12pt;
-  font-family: serif;
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans:400,400italic,700,300italic,300,700italic);
+
+@media (max-device-width:320px) {
+
+
+
+.hideit {
+  display: none;
 }
 
-#hideit {
-  display: none;
+
+.mobile {
+  display: block;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-family: serif;
+  width: 300px;
+  margin: 30px auto;
+
+}
+header{
+  width: 300px;
+  margin: 0px auto;
+}
+h1.mobile{
+  width: 300px;
+  margin: 0px auto;
+
+}
+#splash p{
+  width: 300px;
+  margin: 0px auto;
+}
+#splash h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+}
+#splash body{
+  background-size: cover;
+}
+
 }

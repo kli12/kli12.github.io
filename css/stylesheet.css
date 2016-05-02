@@ -288,3 +288,7 @@ header {
     margin-right: auto;
     width: 960px;
 }
+
+.mobile {
+  display: none;
+}
