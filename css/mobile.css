@@ -18,27 +18,43 @@
   font-family: serif;
   width: 300px;
   margin: 30px auto;
+}
+
+header {
+  width: 300px;
+  margin: 0px auto;
+}
+
+h1.mobile {
+  width: 300px;
+  margin: 0px auto;
 
 }
-header{
-  width: 300px;
-  margin: 0px auto;
-}
-h1.mobile{
-  width: 300px;
-  margin: 0px auto;
 
-}
-#splash p{
+body {
   width: 300px;
   margin: 0px auto;
 }
-#splash h1{
+
+#splash {
+  width: 300px;
+  margin: 0px auto;
+}
+
+#splash p {
+  width: 300px;
+  margin: 0px auto;
+}
+
+#splash h1 {
     font-family: "Josefin Sans", sans-serif;
     font-size: 18px;
 }
-#splash body{
-  background-size: cover;
+
+#splash {
+  background-image: url("watercolor.jpg" width:320px;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 }
