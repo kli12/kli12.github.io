@@ -3,7 +3,7 @@
 body {
   line-height: 1.5;
   font-family: 'Abril Fatface', cursive;
-  background-image: url("watercolor.jpg");
+  background-image: url("../images/watercolor.jpg");
   background-size: fixed;
   background-attachment: fixed;
   background-repeat: no-repeat;
