@@ -4,12 +4,9 @@
 
 @media (max-device-width:320px) {
 
-
-
 .hideit {
   display: none;
 }
-
 
 .mobile {
   display: block;
@@ -28,7 +25,6 @@ header {
 h1.mobile {
   width: 300px;
   margin: 0px auto;
-
 }
 
 body {
